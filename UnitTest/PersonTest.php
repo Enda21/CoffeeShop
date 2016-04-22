@@ -4,15 +4,19 @@ require_once 'person.php';
 class PersonTest extends PHPUnit_Framework_Testcase {
 	public $test;
 
-	public function setup() {
-		$this->test = new Person("Enda");
+public function setup() {
+	$this->test = new person("joe");
 	}
-pub;ic function testName()
+
+public function testName()
 {
-	$enda = $this->test->getName();
-	$this->assertTrue($Enda == 'Enda');
+	$joe = $this->test->getName();
+	
+	$this->assertTrue($joe == "enda");
 }
+public function test
 
 }
-
 ?>
+
+ 

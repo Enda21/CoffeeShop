@@ -6,8 +6,10 @@ class Person {
 	public function _construct($name) {
 	$this->name = $name;
 	}
-	public functiion getName () {
-		return $this->name;
+	
+	public function getName()
+	{
+	return $this->name;
 	}
 }
 ?>
