@@ -45,7 +45,7 @@ $this->select($this->byname('ddlType'))->selectOptionByValue('Classic');
          $this->byName('txtCountry')->value('Ireland');
 $this->select($this->byname('ddlImage'))->selectOptionByValue('irish coffee.jpg');
          $this->byName('txtReview')->value('Best thing ever');
-
+//submit form
          $form->submit();
 
     }
