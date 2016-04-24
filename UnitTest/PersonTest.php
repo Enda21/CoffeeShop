@@ -12,11 +12,8 @@ public function testName()
 {
 	$joe = $this->test->getName();
 	
-	$this->assertTrue($joe == "enda");
+	$this->assert($joe = 'joe' );
 }
-public function test
-
 }
 ?>
-
  
