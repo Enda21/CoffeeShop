@@ -10,9 +10,9 @@ public function setup() {
 
 public function testName()
 {
-	$joe = $this->test->getName();
+	$name = $this->test->getName();
 	
-	$this->assert($joe = 'joe' );
+	$this->assertEnda($name ='enda' );
 }
 }
 ?>
