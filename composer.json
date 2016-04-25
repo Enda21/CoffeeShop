@@ -1,7 +1,7 @@
 {
     "require": {
-        "phpunit/phpunit": "^5.3"
-        "phpunit/phpunit-selenium": ">=1.2"
+        "phpunit/phpunit": "^5.3",
+        "phpunit/phpunit-selenium": ">=1.2",
         "munkie/phpunit-teamcity-testlistener": "1.0.1"
     }
 }
